@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from './components/Omatillo1/Navbar'
+import Kardlar from './components/Samandar2/Kardlar'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+
+      <Navbar />
+      <Kardlar />
+
+    </div>
   )
 }
 
